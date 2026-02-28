@@ -1,0 +1,267 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.sec1 {
+  height: 570px;
+  background-image: url("Images/Background/1.webp");
+  background-position: center;
+  background-size: cover;
+}
+.h-box {
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  width: 500px;
+}
+.btn-1 {
+  background: burlywood !important;
+}
+.sect2 {
+  background-color: rgb(133, 136, 138);
+}
+.heading {
+  font-size: 3rem;
+}
+.top-bar , .nav-bar {
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+  .top-bar{
+    height: 45px;
+    background-color: #d3d3d3;
+  }
+  .top-bar a {
+    text-decoration: none;
+    color: #303132;
+  }
+  .in-search input{
+    border: none;
+    background-color: #d3d3d3;
+  }
+  .nav-bar{
+    margin-top: 2.8rem;
+    background-color: #535151;
+    padding: 1.5rem;
+    height: 80px;
+  }
+.nav-bar .logo{
+    color: #d3d3d3;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 400px;
+  }
+  .nav-bar a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .navbar-list {
+    gap: 2.4rem;
+    list-style: none;
+    font-size: 16.7px;
+  }
+
+.botn a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  border: none;
+}
+.botn {
+  display: inline;
+  text-align: center;
+  padding: 12px 28px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #303132;
+  width: 170px;
+}
+footer {
+  background-color: #303132;
+  color: whitesmoke;
+  height: 290px;
+  overflow: hidden;
+}
+footer .icon img {
+  height: 25px;
+}
+.f-input {
+  border: none;
+  padding: 6px;
+  width: 265px;
+  background-color: #424344;
+}
+button {
+  border: none;
+  color: white;
+}
+.fbotn {
+  display: inline;
+  text-align: center;
+  padding: 8px 28px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #92979d;
+  width: 170px;
+}
+.sec2 {
+  text-align: center;
+}
+.sec2-line {
+  height: 1.1px;
+  width: 50px;
+  background-color: rgb(39, 38, 38);
+  margin-left: 48%;
+}
+.sec2-txt2,
+.sec2-txt3,
+.sec2-txt1 {
+  letter-spacing: 4px;
+}
+.sec2-txt1 {
+  background-color: aliceblue;
+  height: 45px;
+}
+.sec2-txt3 {
+  font-size: 20px;
+}
+.sec4 img {
+  height: 350px;
+}
+.sec2,
+.sec4 {
+  overflow-x: hidden;
+}
+.sec5 {
+  overflow-x: hidden;
+}
+.sec5-line {
+  height: 1px;
+  width: 50px;
+  background-color: rgb(39, 38, 38);
+  width: 50%;
+  margin: auto;
+}
+.sec5-txt1 {
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+.sec5-txt2 {
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-align: center;
+}
+.passag {
+  height: 200px;
+  width: 550px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 6.5rem;
+}
+.sec5 input {
+  border: 2px solid rgb(88, 86, 86);
+  width: 300px;
+}
+.sec5 .in-msg {
+  border: 2px solid rgb(88, 86, 86);
+  width: 300px;
+  height: 170px;
+}
+.sec5 .botn {
+  display: inline;
+  text-align: center;
+  padding: 5px 24px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #2a2b2b;
+  width: 10rem;
+}
+.sec5 .q {
+  font-size: 20px;
+  text-align: center;
+}
+.sec5 .ans {
+  text-align: center;
+}
+.sec6-txt1{
+    letter-spacing: 5px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+  }
+.sec6 img{
+height: 200px;
+width: 200px;
+}
+.sec6 .botn {
+display: inline;
+text-align: center;
+padding: 5px 24px;
+font-size: 17px;
+text-align: center;
+background-color: #3d3e3e;
+width: 10rem;
+}
+.sec6 button{
+border: none;
+color: white;
+cursor: pointer;
+}
+.sec6-line{
+height: 0.5px;
+width: 170px;
+background-color: #3d3e3e;
+}
+.category{
+font-size: 22px;
+}
+.sec6{
+    overflow-x: hidden;
+}
+.brdr{
+    border: 0.3rem solid #424344;
+    border-radius: 0.5rem;
+    width: 380px;
+    padding: 3rem;
+}
+.form{
+    margin-left: 37%;
+}
+.form .in-txt{
+width: 250px;
+padding: 3px;
+}
+.form label{
+margin-top: 15px;
+margin-bottom: 4px;
+}
+.sb-btn{
+color: white;
+border: none;
+padding: 8px 20px;
+background-color: rgb(52, 47, 41);
+}
+.head-text1{
+    letter-spacing: 3px;
+  }
+  .head-text2{
+    letter-spacing: 2px;
+  }
+  .head-text3{
+    letter-spacing: 2px;
+  }
+  .sec11 .price{
+    font-weight: 200;
+}
+.sec12 #price{
+    font-weight: 100;
+  }
