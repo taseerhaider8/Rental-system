@@ -1,0 +1,1 @@
+The user interface the car rental system will be improved by organizing the layout, adding clear navigation menus, using consistent color scheme and readable font, and making the design responsive for mobile and desktop devices.
